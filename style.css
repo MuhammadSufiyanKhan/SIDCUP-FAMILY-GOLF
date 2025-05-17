@@ -494,3 +494,208 @@ video {
     line-height: 20px;
     margin-bottom: 8px;
 }
+
+/* Add these media queries at the end of your CSS file */
+@media screen and (max-width: 1200px) {
+    #nav {
+        padding: 0 60px;
+    }
+    
+    #nav img {
+        height: 6vw;
+    }
+
+    #nav h4 {
+        font-size: 1.5vw;
+    }
+
+    #page1 p {
+        width: 70%;
+    }
+
+    .overlay h4 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #nav {
+        padding: 0 30px;
+        height: 100px;
+    }
+
+    #nav img {
+        height: 8vw;
+    }
+
+    #nav h4 {
+        font-size: 2vw;
+    }
+
+    #page1 h1 {
+        font-size: 12vw;
+    }
+
+    #page1 h2 {
+        font-size: 24px;
+    }
+
+    #page1 p {
+        font-size: 2vw;
+        width: 85%;
+    }
+
+    #cards-container {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .card {
+        width: 80%;
+        height: 300px;
+    }
+
+    #about-us {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    #about-us img {
+        margin-bottom: 30px;
+    }
+
+    #about-us-in {
+        width: 100%;
+    }
+
+    #green-div {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 0;
+    }
+
+    #green-div h4 {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    #page3 {
+        height: auto;
+        padding: 80px 20px;
+    }
+
+    #page3 > p {
+        width: 90%;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    #page3 img {
+        height: 40px;
+    }
+
+    #page3 #colon1 {
+        left: 5%;
+        top: 15%;
+    }
+
+    #page3 #colon2 {
+        right: 5%;
+        bottom: 15%;
+    }
+
+    #page4 {
+        height: auto;
+        flex-direction: column;
+        padding: 100px 20px 50px;
+    }
+
+    .elem {
+        width: 90%;
+        height: 200px;
+    }
+
+    .elem h2 {
+        font-size: 4vw;
+    }
+
+    #page4 h1 {
+        font-size: 8vw;
+        top: -5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #nav {
+        padding: 0 15px;
+        height: 80px;
+    }
+
+    #nav img {
+        height: 10vw;
+    }
+
+    #nav h4 {
+        font-size: 3vw;
+    }
+
+    #page1 h1 {
+        font-size: 14vw;
+    }
+
+    #page1 p {
+        font-size: 3vw;
+        width: 90%;
+    }
+
+    #page1 #arrow {
+        height: 150px;
+        width: 150px;
+    }
+
+    .overlay h4 {
+        font-size: 24px;
+    }
+
+    .overlay p {
+        font-size: 14px;
+    }
+
+    #about-us-in h3 {
+        font-size: 36px;
+    }
+
+    #about-us-in p {
+        font-size: 16px;
+    }
+
+    #page3 > p {
+        width: 95%;
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    #page3 img {
+        height: 30px;
+    }
+
+    #page4 {
+        padding: 80px 15px 40px;
+    }
+
+    .elem {
+        width: 95%;
+        height: 150px;
+    }
+
+    .elem h2 {
+        font-size: 5vw;
+    }
+
+    #page4 h1 {
+        font-size: 10vw;
+        top: -8%;
+    }
+}
